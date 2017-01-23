@@ -30,3 +30,18 @@ while (looping > 0):                    # this condition will repeat while true.
 # block with the colon and then indented
 # the rest of the code that belongs to 
 # that loop.
+
+# let's try the if operator
+testNumber = 50
+if (testNumber > 0):
+  print("The test number is greater than zero")
+
+# let's try a nested if statement. This will have
+# an if inside and if statement.
+if (testNumber > 10):
+  print("The test number is greater than ten")
+  if (testNumber > 20):
+    print("The test number is greater than twenty too!")
+    
+# notice how the indentation groups the chuncks of code
+# to it's appropriate parent line.
