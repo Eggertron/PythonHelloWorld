@@ -45,3 +45,11 @@ if (testNumber > 10):
     
 # notice how the indentation groups the chuncks of code
 # to it's appropriate parent line.
+
+# what if you want your input to be accepted as
+# something other than a string?
+someNumber = int(input("Enter a number: "))
+# you see how I used the integer casting function to change
+# try and change the string to a number? don't input a non integer!
+print("Your number is", someNumber)
+# also noticed how i used the print function this time.
