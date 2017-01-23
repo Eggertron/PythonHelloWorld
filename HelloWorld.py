@@ -2,6 +2,9 @@
 # anything that comes after this hash sign will
 # not be interpreted by the python interpreter.
 
+import time # this import is needed to take advantage
+# of time related functions. Look at line 60.
+
 # this is your first program output. it will print
 # to the console.
 print("Hello World")
@@ -53,3 +56,11 @@ someNumber = int(input("Enter a number: "))
 # try and change the string to a number? don't input a non integer!
 print("Your number is", someNumber)
 # also noticed how i used the print function this time.
+
+# let's use the time module to create a brief pause.
+looping = 5
+while (looping > 0):
+  print(str(looping))
+  looping = looping - 1
+  time.sleep(1)                       # I am adding a 1 second pause in the loop
+print("Time loop is done.")
